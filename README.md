@@ -111,11 +111,13 @@ This creates two files for your mining key:
 4. Search this sektion
 
 [footprint]
-# TODO: set the maximum amount of memory, you can spare for this diamond-node.
-# if no other services are running, you can set this value to almost all of your available RA
+TODO: set the maximum amount of memory, you can spare for this diamond-node.
+if no other services are running, you can set this value to almost all of your available RAM
+
 cache_size = 5120
 
 And adapt the cache_size value to something around 2-3 GB lower than your system memory
+if u have a recomendet 8gb ram server the default value should be ok
 (if you have other memory-hungry services, maybe even lower; keep in mind low values decrease your performance, and low performance can create score loss)
 
     

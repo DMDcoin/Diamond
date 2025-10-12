@@ -3,9 +3,10 @@
 **Testnet setup guide for running a DMD Diamond v4 Blockchain Node.**  
 This guide is designed for **Ubuntu 24.04 LTS** 
 We recommend using **Ubuntu 24.04 LTS** **Ubuntu 22.04 LTS** or **Ubuntu 20.04 LTS**.
+Many community members report to run on a different Linux distribution successful but we dont provide step by step guides.
 
 Validator Node Spec recommendation:
-4 core 8 gb ram 200gb ssd (growing with blockchain size) and flatrate minimum 100 mbit (up&down) internet access with static IP address and port 37373 open for node to node communication 
+4 core 8 gb ram 200gb ssd (growing with blockchain size) and flatrate minimum 100 mbit (up&down) internet access with static IP address and port 17771 open for node to node communication 
 
 for normal full node non validator operation far lower requirement cpu/ram/bandwith wise possible 
 but to compile the node still need like 4gb ram and ssd space requirements are the same
@@ -139,11 +140,11 @@ Use a wallet like **MetaMask** or the **Brave Browser** to connect to the DMD Di
 
 ### Network Configuration:
 
--   **Network Name:** DMD Diamond Testnet
--   **RPC URL:** [https://testnet-rpc.bit.diamonds](https://testnet-rpc.bit.diamonds/)
--   **Chain ID:** 37373
--   **Symbol:** tDMD
--   **Block Explorer URL:** [https://testnet-explorer.bit.diamonds](https://testnet-explorer.bit.diamonds/)
+-   **Network Name:** Diamond
+-   **RPC URL:** [https://rpc.bit.diamonds](https://rpc.bit.diamonds/)
+-   **Chain ID:** 17771
+-   **Symbol:** DMD
+-   **Block Explorer URL:** [https://explorer.bit.diamonds](https://explorer.bit.diamonds/)
 
 To use your own RPC endpoint, start your node with:
 
@@ -161,7 +162,7 @@ Replace the RPC URL with your server's IP address.
 To stake on your node:
 
 1.  Ensure your node is running.
-2.  Have atleast **10,000 tDMD** (testnet DMD) available.
+2.  Have atleast **10,000 DMD available and a fraction of a DMD exctra for the fee of the stake validator collateral smartcontract interaction later (this coins should not be send towards the miner_address we created before! a misstake often reported in BETA)
 
 ### Retrieve Your Public Key
 
@@ -172,15 +173,14 @@ Your public key can be found in the following locations:
 
 ### Stake Using the Diamond-UI
 
-Visit the [Diamond-UI](https://testnet-ui.bit.diamonds/) and enter your public key.  
+Visit the [Diamond-UI](https://ui.bit.diamonds/) and enter your public key.  
 Follow the instructions to set up a pool with a staking amount between **10,000 and 50,000 tDMD**.
 
 For more details: [Diamond-UI Guide](https://github.com/DMDcoin/whitepaper/wiki/H.-Diamond-UI#h23-create-a-pool)
 
-If u own DMD Diamond v3 coins at snapshot u can claim them following the guide here 
-https://testnet-claiming.bit.diamonds/
-a tiny amount of DMD for enabling to interact with claiming can be requested here 
-temporary http://62.171.133.46:8080 later https://testnet-faucet.bit.diamonds/
+If u own DMD Diamond v3 coins at snapshot block 1851895 u can claim them following the guide here 
+https://claiming.bit.diamonds/
+a tiny amount of DMD for enabling to interact with claiming can be requested here  https://faucet.bit.diamonds/
 
 
 

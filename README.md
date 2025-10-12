@@ -1,6 +1,6 @@
-# DMDv4 Testnet
+# Diamond Mainnet
 
-**Testnet setup guide for running a DMD Diamond v4 Blockchain Node.**  
+**Mainnet setup guide for running a DMD Diamond v4 Blockchain Node.**  
 This guide is designed for **Ubuntu 24.04 LTS** 
 We recommend using **Ubuntu 24.04 LTS** **Ubuntu 22.04 LTS** or **Ubuntu 20.04 LTS**.
 Many community members report to run on a different Linux distribution successful but we dont provide step by step guides.

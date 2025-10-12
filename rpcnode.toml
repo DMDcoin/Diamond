@@ -1,0 +1,48 @@
+[account]
+
+[ipc]
+disable = true
+
+[mining]
+force_sealing = true
+min_gas_price = 1000
+reseal_min_period = 0
+reseal_on_txs = "none"
+
+[misc]
+log_file = "diamond-node.log"
+logging = "txqueue=info,consensus=info,engine=info,tx_own=trace"
+
+[network]
+interface = "all"
+max_peers = 10
+min_peers = 5
+nat = "none"
+port = 27272
+reserved_peers = "reserved-peers"
+
+[parity]
+base_path = "data"
+chain = "spec.json"
+
+[rpc]
+apis = ["web3", "eth", "pubsub", "parity", "parity_pubsub", "traces", "net"]
+cors = ["all"]
+hosts = ["all"]
+interface = "all"
+port = 54100
+
+[secretstore]
+disable = true
+
+[websockets]
+interface = "all"
+origins = ["all"]
+port = 54200
+
+[footprint]
+fat_db = "on"
+tracing = "on"
+db_compaction = "ssd"
+pruning = "archive"
+cache_size = 4096

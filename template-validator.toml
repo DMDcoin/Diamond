@@ -34,7 +34,7 @@ port = 17771
 reserved_peers = "reserved-peers"
 # don't attempts to connect to non-public (~ local network) IPs (VM hosters do not like that)
 allow_ips = "public"
-max_peers = 42
+max_peers = 30
 min_peers = 15
 
 [parity]
@@ -52,5 +52,5 @@ disable = true
 
 [footprint]
 # TODO: set the maximum amount of memory, you can spare for this diamond-node.
-# if no other services are running, you can set this value to almost all of your available RA 
-# cache_size = 4096
+# if no other services are running, you can set this value to almost all of your available RAM
+cache_size = 5120

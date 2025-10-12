@@ -15,7 +15,7 @@ logging = "txqueue=info,consensus=info,engine=info,tx_own=trace"
 
 [network]
 interface = "all"
-max_peers = 10
+max_peers = 30
 min_peers = 5
 nat = "none"
 port = 27272

@@ -141,7 +141,7 @@ INFO import  Imported #1040 0xabfe…f189 (0 txs, 0.00 Mgas, 29 ms, 0.56 KiB)
 
 ```
 
-For the latest block information, visit the [block explorer](https://testnet-explorer.bit.diamonds/).
+For the latest block information, visit the [block explorer](https://explorer.bit.diamonds/).
 
 ----------
 

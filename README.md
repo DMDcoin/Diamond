@@ -1,3 +1,6 @@
+
+
+
 # Diamond  
 This guide is designed for **Ubuntu 24.04 LTS** 
 We recommend using **Ubuntu 24.04 LTS** **Ubuntu 22.04 LTS** or **Ubuntu 20.04 LTS**.
@@ -148,6 +151,8 @@ For the latest block information, visit the [block explorer](https://explorer.bi
 ## Adding the Network to a Web3 Wallet
 
 Use a wallet like **MetaMask** or the **Brave Browser** to connect to the DMD Diamond v4 Network.
+Any key management system that supports ethereum address schema can be used as long as it supports custom chain configuration and walletconnect to interact with dapps
+
 
 ### Network Configuration:
 
@@ -185,7 +190,7 @@ Your public key can be found in the following locations:
 ### Stake Using the Diamond-UI
 
 Visit the [Diamond-UI](https://ui.bit.diamonds/) and enter your public key.  
-Follow the instructions to set up a pool with a staking amount between **10,000 and 50,000 tDMD**.
+Follow the instructions to set up a pool with a staking amount between **10,000 and 50,000 DMD
 
 For more details: [Diamond-UI Guide](https://github.com/DMDcoin/whitepaper/wiki/H.-Diamond-UI#h23-create-a-pool)
 

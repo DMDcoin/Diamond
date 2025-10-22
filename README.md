@@ -90,7 +90,7 @@ Run the following command to create a mining key:
 
 This creates two files for your mining key:
 
-1.  `./data/keys/DPoSChain/dmd_miner_key.json` (keystore format)
+1.  `./data/keys/dmd/dmd_miner_key.json` (keystore format)
 2.  `./data/network/key` (private key format)
 
 ### Configure the Validator Node

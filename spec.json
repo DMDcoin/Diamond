@@ -6,7 +6,10 @@
                 "minimumBlockTime": 30,
                 "maximumBlockTime": 300,
                 "transactionQueueSizeTrigger": 1,
-                "blockRewardContractAddress": "0x2000000000000000000000000000000000000001"
+                "blockRewardContractAddress": "0x2000000000000000000000000000000000000001",
+                "blockRewardSkips" : [
+                    { "fromBlock": 5841 }
+                ]
             }
         }
     },

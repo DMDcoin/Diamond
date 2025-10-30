@@ -75,8 +75,6 @@ To run a **validator node** without participating as a validator:
 
 ## Quick Guide: Running a Validator Node
 
-**Note:** Validator node setup is currently for invited **closed alpha users** only.
-
 Validator nodes require a dedicated unlocked account for the **hbbft engine** to sign block contributions.
 
 ### Generate a Mining Key

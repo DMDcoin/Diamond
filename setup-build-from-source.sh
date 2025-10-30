@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 
 export DMD_NODE_GIT_TARGET=" --branch main"
 

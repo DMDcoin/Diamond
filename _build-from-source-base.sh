@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 
 # switch into the directory we have pulled
 cd diamond-node-git

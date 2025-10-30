@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 
 # same as build-from-soure.sh but uses all cores and more memory.
 

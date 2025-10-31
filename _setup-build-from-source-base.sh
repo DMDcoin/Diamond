@@ -14,7 +14,7 @@ apt-get install build-essential cmake -y
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh -s -- -y
 
 # makes rustup availaible
-source $HOME/.cargo/env
+. $HOME/.cargo/env
 
 # choose the currect rust version.
  rustup default 1.85

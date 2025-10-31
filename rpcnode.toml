@@ -18,7 +18,7 @@ interface = "all"
 max_peers = 30
 min_peers = 5
 nat = "none"
-port = 27272
+port = 17771
 reserved_peers = "reserved-peers"
 
 [parity]

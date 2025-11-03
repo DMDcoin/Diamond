@@ -23,7 +23,7 @@ We recommend using `git` for easy downloads and updates.
 # Install git
 apt install git -y
 
-# Clone the repository for the DMDv4 testnet
+# Clone the repository for the DMD Diamond mainnet
 git clone https://github.com/DMDcoin/Diamond.git
 
 # Switch into the new directory

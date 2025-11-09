@@ -3,12 +3,15 @@
     "engine": {
         "hbbft": {
             "params": {
-                "minimumBlockTime": 30,
+                "minimumBlockTime": 3,
                 "maximumBlockTime": 300,
                 "transactionQueueSizeTrigger": 1,
                 "blockRewardContractAddress": "0x2000000000000000000000000000000000000001",
-                "blockRewardSkips" : [
-                    { "fromBlock": 5841 }
+                "blockRewardSkips": [
+                    {
+                        "fromBlock": 5841,
+                        "toBlock": 67800
+                    }
                 ]
             }
         }

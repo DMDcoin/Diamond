@@ -10,7 +10,7 @@
                 "blockRewardSkips": [
                     {
                         "fromBlock": 5841,
-                        "toBlock": 67800
+                        "toBlock": 68020
                     }
                 ]
             }

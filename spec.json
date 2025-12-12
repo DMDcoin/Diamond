@@ -3,7 +3,7 @@
     "engine": {
         "hbbft": {
             "params": {
-                "minimumBlockTime": 30,
+                "minimumBlockTime": 3,
                 "maximumBlockTime": 300,
                 "transactionQueueSizeTrigger": 1,
                 "blockRewardContractAddress": "0x2000000000000000000000000000000000000001",
@@ -15,7 +15,6 @@
                     {
                         "fromBlock": 112304
                     }
-                    
                 ]
             }
         }

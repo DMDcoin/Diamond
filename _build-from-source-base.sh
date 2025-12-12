@@ -5,7 +5,7 @@ cd diamond-node-git
 
 git pull
 
-source $HOME/.cargo/env
+. $HOME/.cargo/env
 
 # choose the currect rust version.
 rustup default 1.85

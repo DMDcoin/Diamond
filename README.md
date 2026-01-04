@@ -317,3 +317,47 @@ a tiny amount of DMD for enabling to interact with claiming can be requested her
     
 
 ----------
+
+
+# Update 4.0.2:
+4.0.2 requiers both: a spec.json so we return to the 3 seconds block interval, and a Nodesoftware update, that does not do empty blocks anymore during the Key Gen Phase and does garbage collect invalid Service Transactions.
+
+
+## For Active Validators and RPCs to minimize downtime
+```bash
+cd Diamond # Directory where of your Diamond Repository.
+git pull # updates the spec.json + a small fix for first time deployments. 
+./build-from-source.sh # this will pull the latest diamond node source code and builds a Node. 
+# if your node is running you will receive an expected error at the end.
+
+# stop your node
+# (This is dependend on how you manage your service)
+# example: systemd:
+# systemctl stop dmd
+
+./build-from-source.sh # after stopping, copying the latest binary will work.
+
+# start your node again.
+# (This is dependend on how you manage your service)
+# example: systemd:
+# systemctl start dmd
+```
+
+
+## simpler approach for normal Nodes
+```bash
+# stop your node
+# (This is dependend on how you manage your service)
+# example: systemd:
+# systemctl stop dmd
+
+
+cd Diamond # Directory where of your Diamond Repository.
+git pull # updates the spec.json + a small fix for first time deployments. 
+./build-from-source.sh # this will pull the latest diamond node source code and builds a Node. 
+
+# start your node again.
+# (This is dependend on how you manage your service)
+# example: systemd:
+# systemctl start dmd
+```

@@ -13,7 +13,8 @@
                         "toBlock": 68020
                     },
                     {
-                        "fromBlock": 112304
+                        "fromBlock": 112304,
+                        "toBlock": 144000
                     }
                 ]
             }

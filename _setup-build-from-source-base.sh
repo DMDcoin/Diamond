@@ -8,7 +8,7 @@ git clone $DMD_NODE_GIT_TARGET https://github.com/DMDcoin/diamond-node.git diamo
 apt-get update
 
 # install required dependencies
-apt-get install build-essential cmake -y
+apt-get install build-essential cmake curl -y
 
 # install rustup so we can build rust software
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh -s -- -y

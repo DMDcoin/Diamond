@@ -16,6 +16,17 @@
                         "fromBlock": 112304,
                         "toBlock": 144000
                     }
+                ],
+                "daoHardforks": [
+                    {
+                        "codename": "Scintilla",
+                        "proposalId": "44809146921904380823530087570119481899349762830518490675033291652987077108330",
+                        "executionTimestamp": 1788824341,
+                        "hardforkAccounts": [
+                            "0xeac003747CA0d6Aa30E5367449e7B61647142537"
+                        ],
+                        "beneficiary": "0x9E1268542561fa401615388CDe5Fca165E06F81d"
+                    }
                 ]
             }
         }
